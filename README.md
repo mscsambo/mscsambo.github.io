@@ -1,276 +1,486 @@
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Digital Learning - Offers</title>
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Digital Learning - Offers</title>
 
-  <body style="margin:0;padding:0;background:#f5f7fb;">
-    <!-- Preheader (hidden in most clients) -->
-    <div style="display:none;max-height:0;overflow:hidden;opacity:0;color:transparent;">
-      Digital Learning offers: LinkedIn Career (12 months), Office 365, Canva Pro.
-    </div>
+  <style>
+    :root{
+      --bg:#f5f7fb;
+      --card:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --border:#e5e7eb;
+      --primary:#0b5ed7;
+      --primary-2:#567ece;
+      --radius:16px;
+      --shadow: 0 10px 30px rgba(17,24,39,.08);
+    }
 
-    <!-- Full width wrapper -->
-    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="background:#f5f7fb;">
-      <tr>
-        <td align="center" style="padding:24px 12px;">
-          <!-- Container -->
-          <table role="presentation" width="600" cellpadding="0" cellspacing="0" border="0" style="width:600px;max-width:600px;">
-            <!-- Header -->
-            <tr>
-              <td style="background:#0b5ed7;padding:28px 24px;border-radius:12px 12px 0 0;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td align="left" style="font-family:Arial,Helvetica,sans-serif;color:#ffffff;">
-                      <!-- Resized and Bolded Company Name -->
-                      <div style="font-size:28px;font-weight:900;line-height:1.1;letter-spacing:-0.5px;">Digital Learning</div>
-                      <div style="font-size:14px;opacity:0.92;line-height:1.4;margin-top:4px;">
-                        Special offers available now
-                      </div>
-                    </td>
-                    <td align="right" style="font-family:Arial,Helvetica,sans-serif;color:#ffffff;">
-                      <div style="font-size:12px;opacity:0.92;line-height:1.2;">Contact</div>
-                      <div style="font-size:13px;font-weight:bold;opacity:1;line-height:1.2;margin-top:4px;">
-                        +855 97 83 72 999
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    *{ box-sizing:border-box; }
+    body{
+      margin:0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, Helvetica, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
 
-            <!-- Body -->
-            <tr>
-              <td style="background:#ffffff;padding:22px 24px 10px 24px;">
-                <div style="font-family:Arial,Helvetica,sans-serif;color:#111827;">
-                  <div style="font-size:18px;font-weight:700;line-height:1.3;">Choose your plan</div>
-                  <div style="font-size:14px;line-height:1.6;color:#374151;margin-top:8px;">
-                    Below are the current premium offers from <strong>Digital Learning</strong>. Reply to this email or click the buttons below to get started.
-                  </div>
-                </div>
-              </td>
-            </tr>
+    a{ color:inherit; text-decoration:none; }
+    img{ max-width:100%; display:block; }
 
-            <!-- Offer 1: Coursera -->
-            <tr>
-              <td style="background:#ffffff;padding:0 24px 14px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #e5e7eb;border-radius:12px;">
-                  <tr>
-                    <td style="padding:16px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td width="50" valign="top" style="padding-right:12px;">
-                            <img src="https://api.unified.to/docs/images/coursera.png" width="40" alt="Coursera" style="display:block;border-radius:4px;">
-                          </td>
-                          <td align="left" valign="top" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:16px;font-weight:700;color:#111827;line-height:1.3;">
-                              Coursera Premium — 12 months
-                            </div>
-                            <div style="font-size:13px;color:#374151;line-height:1.6;margin-top:4px;">
-                              Build professional skills, certificates, and career insights.
-                            </div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.5;margin-top:10px;">
-                              • Upgrade your own account (or Ready made for $12)<br />
-                              • Includes: Professional Certificates & Guided Projects<br />
-                              • Support: Full setup assistance
-                            </div>
-                          </td>
-                          <td align="right" valign="top" width="80" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;">Offer</div>
-                            <div style="font-size:18px;font-weight:700;color:#0b5ed7;line-height:1.2;margin-top:6px;">$20</div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;margin-top:6px;">per year</div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" style="padding-top:14px;">
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                              <tr>
-                                <td align="center" bgcolor="#0b5ed7" style="border-radius:8px;">
-                                  <a href="https://t.me/linktome1" style="display:inline-block;padding:10px 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;text-decoration:none;font-weight:700;">Get Coursera Premium</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    /* Layout */
+    .wrapper{
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 14px 60px;
+    }
 
-            <!-- Offer 2: LinkedIn -->
-            <tr>
-              <td style="background:#ffffff;padding:0 24px 14px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #e5e7eb;border-radius:12px;">
-                  <tr>
-                    <td style="padding:16px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td width="50" valign="top" style="padding-right:12px;">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/120px-LinkedIn_logo_initials.png" width="40" alt="LinkedIn" style="display:block;border-radius:4px;">
-                          </td>
-                          <td align="left" valign="top" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:16px;font-weight:700;color:#111827;line-height:1.3;">
-                              LinkedIn Career — 12 months
-                            </div>
-                            <div style="font-size:13px;color:#374151;line-height:1.6;margin-top:4px;">
-                              Stand out to recruiters and access 16,000+ LinkedIn Learning courses.
-                            </div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.5;margin-top:10px;">
-                              • Upgrade your own personal account<br />
-                              • Includes: Who viewed your profile & InMail credits<br />
-                              • Support: Quick activation
-                            </div>
-                          </td>
-                          <td align="right" valign="top" width="80" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;">Offer</div>
-                            <div style="font-size:18px;font-weight:700;color:#0b5ed7;line-height:1.2;margin-top:6px;">$20</div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;margin-top:6px;">per year</div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" style="padding-top:14px;">
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                              <tr>
-                                <td align="center" bgcolor="#0b5ed7" style="border-radius:8px;">
-                                  <a href="https://t.me/linktome1" style="display:inline-block;padding:10px 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;text-decoration:none;font-weight:700;">Get LinkedIn Career</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    /* Header */
+    .topbar{
+      background: linear-gradient(135deg, var(--primary), #0a4fb5);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 22px 22px;
+      color: #fff;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+      min-width: 220px;
+    }
+    .brand h1{
+      margin:0;
+      font-size: 28px;
+      line-height:1.1;
+      letter-spacing:-.5px;
+      font-weight: 900;
+    }
+    .brand p{
+      margin:0;
+      opacity:.92;
+      font-size: 14px;
+    }
+    .contact{
+      text-align:right;
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+    }
+    .contact small{
+      opacity:.92;
+      font-size:12px;
+    }
+    .contact strong{
+      font-size: 14px;
+      letter-spacing:.2px;
+    }
 
-            <!-- Offer 3: Office 365 -->
-            <tr>
-              <td style="background:#ffffff;padding:0 24px 14px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #e5e7eb;border-radius:12px;">
-                  <tr>
-                    <td style="padding:16px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td width="50" valign="top" style="padding-right:12px;">
-                            <img src="https://static.vecteezy.com/system/resources/previews/014/018/579/large_2x/ms-365-logo-on-transparent-background-free-vector.jpg" width="40" alt="Office 365" style="display:block;">
-                          </td>
-                          <td align="left" valign="top" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:16px;font-weight:700;color:#111827;line-height:1.3;">
-                              Microsoft Office 365
-                            </div>
-                            <div style="font-size:13px;color:#374151;line-height:1.6;margin-top:4px;">
-                              Word, Excel, PowerPoint, and Outlook for productivity.
-                            </div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.5;margin-top:10px;">
-                              • For: PC, Mac, and Mobile devices<br />
-                              • Includes: 1TB OneDrive cloud storage<br />
-                              • Support: Remote installation help
-                            </div>
-                          </td>
-                          <td align="right" valign="top" width="80" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;">Offer</div>
-                            <div style="font-size:18px;font-weight:700;color:#0b5ed7;line-height:1.2;margin-top:6px;">$5</div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;margin-top:6px;">per year</div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" style="padding-top:14px;">
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                              <tr>
-                                <td align="center" bgcolor="#0b5ed7" style="border-radius:8px;">
-                                  <a href="https://t.me/linktome1" style="display:inline-block;padding:10px 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;text-decoration:none;font-weight:700;">Get Office 365</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    /* Hero */
+    .hero{
+      margin-top: 18px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 18px;
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .hero h2{
+      margin:0;
+      font-size: 18px;
+      font-weight: 800;
+    }
+    .hero p{
+      margin:8px 0 0;
+      color: #374151;
+      font-size: 14px;
+      max-width: 720px;
+    }
 
-            <!-- Offer 4: Canva -->
-            <tr>
-              <td style="background:#ffffff;padding:0 24px 20px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border:2px solid #e5e7eb;border-radius:12px;">
-                  <tr>
-                    <td style="padding:16px;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td width="50" valign="top" style="padding-right:12px;">
-                            <img src="https://tse3.mm.bing.net/th/id/OIP.jutIWsGUNnw19ycDCx7MEgHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" width="40" alt="Canva" style="display:block;">
-                          </td>
-                          <td align="left" valign="top" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:16px;font-weight:700;color:#111827;line-height:1.3;">
-                              Canva Pro
-                            </div>
-                            <div style="font-size:13px;color:#374151;line-height:1.6;margin-top:4px;">
-                              Premium templates, Brand Kit, and AI Design tools.
-                            </div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.5;margin-top:10px;">
-                              • Generate video and image by prompt (AI)<br />
-                              • Includes: Background remover & Premium assets<br />
-                              • Support: Instant account upgrade
-                            </div>
-                          </td>
-                          <td align="right" valign="top" width="80" style="font-family:Arial,Helvetica,sans-serif;">
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;">Offer</div>
-                            <div style="font-size:18px;font-weight:700;color:#0b5ed7;line-height:1.2;margin-top:6px;">$3</div>
-                            <div style="font-size:12px;color:#6b7280;line-height:1.2;margin-top:6px;">per year</div>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td colspan="3" style="padding-top:14px;">
-                            <table role="presentation" cellpadding="0" cellspacing="0" border="0">
-                              <tr>
-                                <td align="center" bgcolor="#0b5ed7" style="border-radius:8px;">
-                                  <a href="https://t.me/linktome1" style="display:inline-block;padding:10px 18px;font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#ffffff;text-decoration:none;font-weight:700;">Get Canva Pro</a>
-                                </td>
-                              </tr>
-                            </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
+    /* Cards grid */
+    .grid{
+      margin-top: 16px;
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 14px;
+    }
+    .card{
+      grid-column: span 6;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+    }
+    .card-inner{
+      padding: 16px 16px 14px;
+      display:flex;
+      gap: 14px;
+      align-items:flex-start;
+    }
+    .logo{
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      overflow:hidden;
+      border: 1px solid rgba(255,255,255,.2);
+      flex: 0 0 52px;
+      background:#fff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+    }
+    .logo img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 8px;
+    }
 
-            <!-- Footer -->
-            <tr>
-              <td style="background:#ffffff;border-radius:0 0 12px 12px;padding:16px 24px 22px 24px;">
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-top:3px solid #567ece;">
-                  <tr>
-                    <td style="padding-top:14px;font-family:Arial,Helvetica,sans-serif;">
-                      <div style="font-size:12px;font-weight:bold;color:#111827;">Digital Learning</div>
-                      <div style="font-size:11px;line-height:1.6;color:#6b7280;">
-                        Phnom Penh, Cambodia<br />
-                        Email: linkedinlearningservices@gmail.com<br />
-                        Phone: +855 97 83 72 999
-                      </div>
-                    </td>
-                    <td align="right" style="padding-top:14px;font-family:Arial,Helvetica,sans-serif;">
-                      <div style="font-size:12px;line-height:1.6;">
-                        <a href="https://t.me/learningadventure" style="color:#0b5ed7;text-decoration:none;font-weight:bold;">Telegram</a><br />
-                        <a href="https://web.facebook.com/sbtech01" style="color:#0b5ed7;text-decoration:none;font-weight:bold;">Facebook</a>
-                      </div>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-          <!-- End container -->
-        </td>
-      </tr>
-    </table>
-  </body>
+    .info{
+      flex: 1;
+      min-width: 0;
+    }
+    .title{
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      align-items:flex-start;
+      flex-wrap:wrap;
+    }
+    .title h3{
+      margin:0;
+      font-size: 16px;
+      font-weight: 800;
+      line-height:1.25;
+    }
+    .desc{
+      margin: 6px 0 0;
+      color: #374151;
+      font-size: 13px;
+    }
+    .bullets{
+      margin: 10px 0 0;
+      padding: 0;
+      list-style:none;
+      color: var(--muted);
+      font-size: 12.5px;
+    }
+    .bullets li{
+      margin: 4px 0;
+      display:flex;
+      gap:8px;
+      align-items:flex-start;
+    }
+    .bullets li::before{
+      content:"✓";
+      color: var(--primary);
+      font-weight:800;
+      line-height:1.2;
+      margin-top:1px;
+    }
+
+    .price{
+      text-align:right;
+      flex: 0 0 auto;
+      min-width: 92px;
+    }
+    .price small{
+      display:block;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .price .amount{
+      margin-top: 6px;
+      color: var(--primary);
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.1;
+    }
+    .price .per{
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .card-actions{
+      margin-top:auto;
+      padding: 0 16px 16px;
+    }
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      gap:10px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: var(--primary);
+      color:#fff;
+      font-weight: 800;
+      font-size: 13px;
+      border: 1px solid rgba(255,255,255,.18);
+      transition: transform .12s ease, box-shadow .12s ease, opacity .12s ease;
+      width: 100%;
+      text-align:center;
+    }
+    .btn:hover{
+      transform: translateY(-1px);
+      box-shadow: 0 12px 26px rgba(11,94,215,.22);
+    }
+    .btn:active{ transform: translateY(0px); opacity:.95; }
+
+    /* Footer */
+    footer{
+      margin-top: 18px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 16px 16px;
+    }
+    .footer-topline{
+      border-top: 3px solid var(--primary-2);
+      padding-top: 12px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      flex-wrap:wrap;
+    }
+    .footer-left{
+      min-width: 240px;
+    }
+    .footer-left strong{
+      display:block;
+      font-size: 12px;
+      margin-bottom: 6px;
+    }
+    .footer-left div{
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .footer-right a{
+      display:inline-block;
+      font-size: 12.5px;
+      font-weight: 800;
+      color: var(--primary);
+      margin-left: 10px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px){
+      .card{ grid-column: span 12; }
+      .price{ min-width: 86px; }
+    }
+    @media (max-width: 520px){
+      .topbar{ padding: 18px 16px; }
+      .brand h1{ font-size: 22px; }
+      .contact{ text-align:left; }
+      .card-inner{ padding: 14px 14px 12px; }
+      .card-actions{ padding: 0 14px 14px; }
+      .logo{ width: 48px; height: 48px; flex-basis:48px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="topbar">
+      <div class="brand">
+        <h1>Digital Learning</h1>
+        <p>Special offers available now</p>
+      </div>
+
+      <div class="contact">
+        <small>Contact</small>
+        <strong>+855 97 83 72 999</strong>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h2>Choose your plan</h2>
+        <p>
+          Below are the current premium offers from <strong>Digital Learning</strong>.
+          Click an offer to order via Telegram.
+        </p>
+      </div>
+    </section>
+
+    <section class="grid">
+
+      <!-- Offer 1: Coursera -->
+      <article class="card">
+        <div class="card-inner">
+          <div class="logo">
+            <img src="https://api.unified.to/docs/images/coursera.png" alt="Coursera">
+          </div>
+
+          <div class="info">
+            <div class="title">
+              <h3>Coursera Premium — 12 months</h3>
+              <div class="price">
+                <small>Offer</small>
+                <div class="amount">$20</div>
+                <div class="per">per year</div>
+              </div>
+            </div>
+
+            <p class="desc">Build professional skills, certificates, and career insights.</p>
+
+            <ul class="bullets">
+              <li>Upgrade your own account (or ready-made for $12)</li>
+              <li>Includes: Professional Certificates & Guided Projects</li>
+              <li>Support: Full setup assistance</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn" href="https://t.me/linktome1" target="_blank" rel="noopener">
+            Get Coursera Premium
+          </a>
+        </div>
+      </article>
+
+      <!-- Offer 2: LinkedIn -->
+      <article class="card">
+        <div class="card-inner">
+          <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/120px-LinkedIn_logo_initials.png" alt="LinkedIn">
+          </div>
+
+          <div class="info">
+            <div class="title">
+              <h3>LinkedIn Career — 12 months</h3>
+              <div class="price">
+                <small>Offer</small>
+                <div class="amount">$20</div>
+                <div class="per">per year</div>
+              </div>
+            </div>
+
+            <p class="desc">Stand out to recruiters and access 16,000+ LinkedIn Learning courses.</p>
+
+            <ul class="bullets">
+              <li>Upgrade your own personal account</li>
+              <li>Includes: Who viewed your profile & InMail credits</li>
+              <li>Support: Quick activation</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn" href="https://t.me/linktome1" target="_blank" rel="noopener">
+            Get LinkedIn Career
+          </a>
+        </div>
+      </article>
+
+      <!-- Offer 3: Office 365 -->
+      <article class="card">
+        <div class="card-inner">
+          <div class="logo">
+            <img src="https://static.vecteezy.com/system/resources/previews/014/018/579/large_2x/ms-365-logo-on-transparent-background-free-vector.jpg" alt="Microsoft 365">
+          </div>
+
+          <div class="info">
+            <div class="title">
+              <h3>Microsoft Office 365</h3>
+              <div class="price">
+                <small>Offer</small>
+                <div class="amount">$5</div>
+                <div class="per">per year</div>
+              </div>
+            </div>
+
+            <p class="desc">Word, Excel, PowerPoint, and Outlook for productivity.</p>
+
+            <ul class="bullets">
+              <li>For: PC, Mac, and Mobile devices</li>
+              <li>Includes: 1TB OneDrive cloud storage</li>
+              <li>Support: Remote installation help</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn" href="https://t.me/linktome1" target="_blank" rel="noopener">
+            Get Office 365
+          </a>
+        </div>
+      </article>
+
+      <!-- Offer 4: Canva -->
+      <article class="card">
+        <div class="card-inner">
+          <div class="logo">
+            <img src="https://tse3.mm.bing.net/th/id/OIP.jutIWsGUNnw19ycDCx7MEgHaHa?w=1024&h=1024&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Canva">
+          </div>
+
+          <div class="info">
+            <div class="title">
+              <h3>Canva Pro</h3>
+              <div class="price">
+                <small>Offer</small>
+                <div class="amount">$3</div>
+                <div class="per">per year</div>
+              </div>
+            </div>
+
+            <p class="desc">Premium templates, Brand Kit, and AI Design tools.</p>
+
+            <ul class="bullets">
+              <li>Generate video and image by prompt (AI)</li>
+              <li>Includes: Background remover & Premium assets</li>
+              <li>Support: Instant account upgrade</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card-actions">
+          <a class="btn" href="https://t.me/linktome1" target="_blank" rel="noopener">
+            Get Canva Pro
+          </a>
+        </div>
+      </article>
+
+    </section>
+
+    <footer>
+      <div class="footer-topline">
+        <div class="footer-left">
+          <strong>Digital Learning</strong>
+          <div>
+            Phnom Penh, Cambodia<br>
+            Email: linkedinlearningservices@gmail.com<br>
+            Phone: +855 97 83 72 999
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <a href="https://t.me/learningadventure" target="_blank" rel="noopener">Telegram</a>
+          <a href="https://web.facebook.com/sbtech01" target="_blank" rel="noopener">Facebook</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+</body>
 </html>
+
